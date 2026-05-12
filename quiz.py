@@ -11,4 +11,8 @@ print("           jgs  '.    .'                 ")
 print("                  `\/`                   ")
 
 question1 = input("What is your favourite animal?")
+print ("Oh!I like " + question1 + " ,too.That's a great animal.")
+question2 = input("Why do you like it?")
+print ("Sounds interesting.It's a meaningful reason.")
+
 question2 = input("")
