@@ -2,13 +2,16 @@
 # then output a madlib using those words.
 
 # Ask user for a name and save it in a variable
-
+name = input("What is your name?")
 # Ask user for an animal and save it in a variable
-
+animal = input("What is your favourite animal?")
 # Ask user for a colour and save it in a variable
+colour = input("WHat is your favourite coler?")
+gender = input("what is your gender,answer her or his.")
+
 
 # Print your madlib using the 3 variables above.
-
+print(name + "'s favourite animal is " + animal + ",and " + gender + " favourite coler is " + colour )
 # ----------------------------
 
 # EXTENSION
