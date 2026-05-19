@@ -15,4 +15,8 @@ print ("Oh!I like " + question1 + " ,too.That's a great animal.")
 question2 = input("Why do you like it?")
 print ("Sounds interesting.It's a meaningful reason.")
 
-question2 = input("")
+question3 = input("Do you think bats are as big as elephants? Please answer yes or no.")
+if question3 == "yes":
+    print ("well done! Your correct")
+else:
+    print ("Oh no.Please try again")
