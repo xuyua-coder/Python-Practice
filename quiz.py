@@ -18,5 +18,7 @@ print ("Sounds interesting.It's a meaningful reason.")
 question3 = input("Do you think bats are as big as elephants? Please answer yes or no.")
 if question3 == "yes":
     print ("well done! Your correct")
+elif question3 == "Yes":
+    print ("well done! Your correct")
 else:
     print ("Oh no.Please try again")
